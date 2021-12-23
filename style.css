@@ -1,0 +1,39 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Snell Roundhand";
+    font-size: 48px;
+}
+
+a {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+li {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+}
+
+.short {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+a:hover {
+    animation-name: zoom;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+    0% {
+        font-size: 20px;
+    }
+    100% {
+        font-size: 22px;
+    }
+}
